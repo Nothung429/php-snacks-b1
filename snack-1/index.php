@@ -44,7 +44,7 @@ Olimpia Milano - Cantù | 55-60 -->
         <h1>NBA Matches</h1>
         <ul>
             <?php for($i = 0; $i < count($matches); $i++) { ?>
-                <li><?php echo $matches[$i]['homeTeam']?> - <?php echo $matches[$i]['awayTeam']?> | <?php echo $matches[$i]['homeScore']?> - <?php echo $matches[$i]['awayScore']?></li>
+                <li><?= $matches[$i]['homeTeam']?> - <?= $matches[$i]['awayTeam']?> | <?= $matches[$i]['homeScore']?> - <?= $matches[$i]['awayScore']?></li>
             <?php } ?>
         </ul>
     </body>
